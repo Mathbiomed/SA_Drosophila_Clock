@@ -1,5 +1,5 @@
 function tf=isrhythmM(AT,K,a3,b1,b2,b3,tranRatio,KPA,KA,Kd,KP,period,inten,ddinten,smoothL,smoothD,delay)
-    % The function to discriminate whether the simulated per mRNA time series is rhythmic, or not
+    % The function to check whether the simulated per mRNA time series is rhythmic
     tspan=0:0.01:period;
     msl = ldlight(tspan,period,inten,ddinten,smoothL,smoothD,0); 
     mt=find(msl==min(msl), 1, 'first');
