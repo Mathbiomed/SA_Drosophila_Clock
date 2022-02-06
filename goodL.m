@@ -1,5 +1,5 @@
 function tf=goodL(smoothL,smoothD)
-    % The function to discriminate whether the light function can be accepted
+    % This function ckeck whether the function 'ldlight.m' is smoothly constructed
     t=0:0.01:1;
     tf=true;
     light=0.5*((tanh((t - floor(t))/smoothL)-tanh((t - floor(t)-1/2)/smoothD))+(1+tanh((t-floor(t)-1)/smoothL)));
