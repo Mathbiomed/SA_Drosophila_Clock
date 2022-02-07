@@ -1,5 +1,5 @@
 # SA_Drosophila_Clock
-This is a matlab code to estimate parameters of the Drosophila circadian clock models using the simulated annealing (SA) method. See Jeong et al, PNAS (2022) for details.
+Matlab codes for the mathematial model of the Drosophila circadian clock and its parameter esitmation using the simulated annealing (SA) method. See Jeong et al, Systematic modeling-driven experiments identify distinct molecular clockworks underlying hierarchically organized pacemaker neurons, PNAS (2022) for details.
 
 ## Code Description
 1. simSA.m
